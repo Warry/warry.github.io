@@ -1,0 +1,24 @@
+sudo: false
+
+os:
+  - linux
+
+env:
+  global:
+    - GH_REF: github.com/Warry/warry.github.io.git
+    - secure: "NjkiMOCt9H6LmFHVT1K6190iezQxjlweoxcfvOSjE5sxixbycNlTx9Dm6Y874PCD+DTUiwQRnwxrszDBQqeNC3Ubg0iC72gnTrrUYtxi3N5XTk0AxePraZBHzsr6gSmtg3TYius4nwtcESSf+ZLc/O3SOsYN4KsDD7CoYjxHlnFENFmjjTbcOdGdNmYCg4GK/ySQPba25fAsgklKAr17nSdht7ksUvfCJXsogXA660JyfM2k+oVueMP/4v5OZeNiPG9fuQyUgd4vZwGSxmqDrXdoPBeKrY7DcrvhH7AIWohzOmatfTsWzZlgMTaALo5gbWE+Bv19tFZZNITLWz9SCNmBaz5tyvJCqXnt87On6Qlh7igWzYij5p1irOUeZXVhWenyREfFrnTJtMILGpIyVyoumMXVriBQZgBBaUm7qT/42zTWeZJR1dm7rRdzmaU4g2lVoVlpD1ydpgJElOm27k2yGNm3lXay04yaF8qUoM+sq17dxLS+Lp6mO8yfgauNx807+ii8DiPqkgpX8CFjsiYl68CCu+Dx/0yM3sgaMYcZfOnrAimdS4KcbzkYSj9Gdfrdc6T8Ctr1zaef9z8zY3fbGozJcDsg1XYDD45qtlv/T3qjgFcYd4lxqMsQ51zkDuE4V20j6jIkePPRofk0tAXUUa4zdVOQdy/cfbtNPss="
+  matrix:
+    - ELM_VERSION=0.16.0 TARGET_NODE_VERSION=node
+
+install:
+  - nvm install $TARGET_NODE_VERSION
+  - nvm use $TARGET_NODE_VERSION
+  - node --version
+  - npm --version
+  - npm install -g elm@$ELM_VERSION
+  - npm install
+  - npm install -g elm
+  - elm-package install --yes
+
+script:
+  - sh build.sh
