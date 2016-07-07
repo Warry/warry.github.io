@@ -1,0 +1,80 @@
+==================================================================
+https://keybase.io/warry
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://warry.fr
+  * I am warry (https://keybase.io/warry) on keybase.
+  * I have a public key with fingerprint E875 F7BA 4FB3 FE3A E55B  8E48 91FA 985A B75E 490A
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101841033b4e7cf0cd83977374e6491ca5351babcc7d75717cf372b9e4fb1e553890a",
+            "fingerprint": "e875f7ba4fb3fe3ae55b8e4891fa985ab75e490a",
+            "host": "keybase.io",
+            "key_id": "91fa985ab75e490a",
+            "kid": "0101841033b4e7cf0cd83977374e6491ca5351babcc7d75717cf372b9e4fb1e553890a",
+            "uid": "950404fb24fe909622bfc6bd0922b700",
+            "username": "warry"
+        },
+        "revoke": {
+            "sig_ids": [
+                "040417c5b95baebc2fee7756e87e1f99ce286413ed30195d91624b427289f6720f"
+            ]
+        },
+        "service": {
+            "hostname": "warry.fr",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1467896894,
+    "expire_in": 157680000,
+    "prev": "5cb965e6ccaba4d2b33b221584e8f16c9c5922103382f605d80679684f907dc4",
+    "seqno": 24,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.53
+Comment: https://keybase.io/crypto
+
+yMNzAnicrVJrTBxVGF2gYCCQYFNIo/GRoa0Vocz7zqykDdpgbTCNAtKywDqPOzDA
+PpgdFlZApJaixIZQu0ILYiFBCV0BQQQ0Ai00fWARm4JQATGxiIVIt8ZHoTXepZr4
+w5/eP/d1vnPOPd8dDQswhPjVrtWn92U9H+I3dnal0JD2WsruEky0yS7MWILlwY0J
+5svQoZvzVBkzYjiBExxN4BQl0hBICi7JHMUDQAEasjRPSAJDMYQoiJIEZMAAAmEo
+QIo8pBWRgAxDcTwuYDGYolqzoWbXVKuOaCEHGAWIAgJRCqQEBBQ5SHM8oQg8xwgi
+YCB9vzDH5vBVIHOi4IC7VBs6Qxvzhr3/wP/Pvgvv6zA4jaMbklYgj/MsSYqKxIoy
+zqMVwHEf0AE1q2CBCF0kaJoLK4vBNOi05UFfqA41Gzl2YEYT5mNCcozIM6IARYlU
+IASAYVEmkFB4XoIkx9IEBWUKJ3hG5gmWpEWaBCTHKywgcQXLRNxIzqlKG+S+iP4t
+vUvRkCG7ZtNtki0fnebout3oM6S77BsoKJr/rjeLqlVGvUEFTqg5VJsVMxIIKemq
+j5CgWcDxLMfTMRgstqsaNKs+BANYDkfDJwOdiJKRRJ5lICtJAmqrTIooeZIkGI6G
+nEKwEi8xKCtfQzhSYXFG5nAWIGJa4XEgSzTme1GB1YYZSSSlC9mIE4VmFfRCDWJl
+585mbDL4hRiCAv19n9YQEhz+z1d+SQ83DKZcjo+3T5rC0r94ZwxUiaeIS8NS20eP
+jWXluceEmtEd21e7Qt09nY0P7fkgv8T7lHThbr+nfjKrvavz9vGG8hfrYjJiS0+0
+VlanXX09Nv4z78KmjiATfrj27U9mv25LW4n7Pt2yXFoTnftI9sRszE+J00kDZPlM
+wtLWllVYmKRE31xp6InyWEb/cCWTgyM/N0e3nhq/lqJcPty93LJ1YnHpoh5WUXXa
+/2TIE7C8rTPhgeof2uv2F4xsnuu1Xiv2VK9YBG9zYpN07uF3PYsno5MHbkVk9rYt
+3tt2PfUF8Et9sSv445qd6zu68z/deSAqqc9fmKo0xO5nbmUVcK3Dv5l64sw33aYn
+28/gDfgrHSOJVUumg4cOXVxyRc11Plix3NtfR3ljD2a9Pw8KiKbIA9+uP+e92nTp
+iu5Xmj/UHLfHcz1jcp9b63N++Lth78LLDQMi/3S7s8j/StBA/Xz/QkP1n6uWtODA
+1OnpC6czVc8x+fPat3KbIm6nNha80XX30e1j7mpLxrbhmarZyGPGAc7x6/ybzyZW
+3JtyRLbPZ6ZGDBaN54xP/vjecW9jX9c3bmEi9Kst/Frllsi13c/YW8oDk4038O+O
+DhHrmYsrjwfM1K3LZ1bDl0NDz/dLVV8ePdLNzO5VIxOs1hMLuXcWXg2fGgo/ot1o
+C+hYTb9T1nq+b655877U+L8Ao2blNg==
+=X/o4
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/warry
+
+==================================================================
